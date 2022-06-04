@@ -1,0 +1,27 @@
+.slider {
+	background-color: #f7f7f7;
+	padding: 120px 0 60px 0;
+	&__item {
+		text-align: center;
+	}
+	&__icon {
+		margin: 0px 0px 35px 0px;
+	}
+	&__title {
+		color: #353738;
+		font-size: 18px;
+		font-weight: 700;
+		margin: 0px 0px 20px 0px;
+		span {
+			font-weight: 300;
+			color: #848789;
+		}
+	}
+	&__text {
+		text-align: center;
+		color: #848789;
+		font-size: 24px;
+		font-style: italic;
+		line-height: 34px;
+	}
+}

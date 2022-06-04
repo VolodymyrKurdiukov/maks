@@ -1,0 +1,16 @@
+@media (max-width: 1099.98px){
+	.shop{
+		&__row{
+			flex-wrap: wrap;
+		}
+		&__column {
+			flex: 0 1 50%;
+			&:first-child{
+				flex: 1 1 100%;
+			}
+			&:last-child{
+				flex: 1 1 100%;
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+@media (max-width: 574.98px) {
+	.contact {
+		padding: 50px 0px;
+		&__form {
+			flex-direction: column;
+		}
+		&__input {
+			input {
+				width: 300px;
+				height: 50px;
+			}
+		}
+		&__btn {
+			width: 300px;
+			padding: 15px 25px;
+			display: block;
+			margin: 20px 0px 0px 0px;
+		}
+	}
+}

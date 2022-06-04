@@ -1,0 +1,24 @@
+@media (max-width: 1099.98px) {
+	.brands {
+		&__row {
+			flex-direction: column;
+		}
+		&__column-rev{
+			display: flex;
+			flex-direction: column;
+		}
+		&__block{
+			order: 2;
+		}
+		.block__img{
+			order: 1;
+		}
+	}
+	.item {
+		padding: 0px 0px 70% 0px;
+		height: auto;
+	}
+	.block{
+		padding: 40px 30px 50px 30px;
+	}
+}

@@ -1,0 +1,29 @@
+.generation {
+	background-color: #f7f7f7;
+	&__row {
+		padding: 170px 0px 140px 0px;
+		text-align: center;
+	}
+
+	&__icon {
+		margin: 0px 0px 30px 0px;
+	}
+
+	&__title {
+		color: #353738;
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 3.6px;
+		margin: 0px 0px 30px 0px;
+	}
+
+	&__text {
+		max-width: 1080px;
+		color: #848789;
+		font-size: 18px;
+		line-height: 34px;
+	}
+}
+.container {
+}
