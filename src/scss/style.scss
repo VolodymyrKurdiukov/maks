@@ -4,7 +4,7 @@
 @import "base/links";
 
 * {
-	font-family: "Lato", sans-serif;
+	font-family: "Pacifico", cursive;
 	margin: 0;
 	padding: 0;
 }
@@ -42,21 +42,82 @@
 	top: 0;
 	left: 0;
 }
+.title {
+	margin: 32px auto 0px auto;
+	max-width: 257px;
+	color: #0a3442;
+	font-size: 20px;
+	letter-spacing: 2.3px;
+	line-height: 25.22px;
+	text-align: center;
+}
+
+.content {
+	background: url("../img/main_bg.jpg") center center/cover no-repeat;
+	&__icon {
+	}
+
+	&__economy {
+		width: 289px;
+		height: 72px;
+		border-radius: 40px 0 0 40px;
+		box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+		background-image: linear-gradient(to top, rgba(103, 186, 198, 0.72) 0%, rgba(152, 229, 236, 0.49) 100%);
+	}
+
+	&__fvorite {
+	}
+
+	&__pro {
+	}
+
+	&__surprise {
+	}
+}
+
+.economy {
+	text-align: right;
+	&__link {
+		display: flex;
+		align-items: center;
+	}
+
+	&__icon {
+	}
+
+	&__text {
+	}
+}
+.fvorite {
+	&__link {
+	}
+
+	&__icon {
+	}
+
+	&__text {
+	}
+}
+.pro {
+	&__link {
+	}
+
+	&__icon {
+	}
+
+	&__text {
+	}
+}
+.surprise {
+	&__link {
+	}
+
+	&__icon {
+	}
+
+	&__text {
+	}
+}
 
 @import "blocks/header";
-@import "blocks/main";
-@import "blocks/generation";
-@import "blocks/brands";
-@import "blocks/slider";
-@import "blocks/shop";
-@import "blocks/discover";
-@import "blocks/contact";
 @import "blocks/footer";
-
-@import "media/header_media";
-@import "media/gemeration_media";
-@import "media/brands_media";
-@import "media/slider_media";
-@import "media/shop_media";
-@import "media/contact_media";
-@import "media/footer_media";
