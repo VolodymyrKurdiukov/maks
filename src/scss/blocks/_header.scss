@@ -1,5 +1,5 @@
 .header {
-	background-image: linear-gradient(to top, #67bac6 0%, #98e5ec 100%);
+	background-color: #c3d99b;
 	&__row {
 		display: flex;
 		align-items: center;
@@ -8,7 +8,6 @@
 		padding: 0px 87px 0px 0px;
 	}
 	&__column {
-		
 	}
 	&__logo {
 		width: 49px;
@@ -22,8 +21,8 @@
 	}
 
 	&__title {
-		text-shadow: 0 0 31px #98e5ec;
-		color: #0a3442;
+		text-shadow: 0 0 10px #f5e4d0;
+		color: #0a4210;
 		font-size: 36px;
 		letter-spacing: 4.14px;
 	}
